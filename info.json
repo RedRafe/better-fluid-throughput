@@ -1,0 +1,14 @@
+{
+  "name": "better-fluid-throughput",
+  "version": "0.1.0",
+  "title": "Better Fluid Throughput",
+  "author": "RedRafe",
+  "source": "https://github.com/RedRafe/better-fluid-throughput",
+  "homepage": "https://mods.factorio.com/user/RedRafe",
+  "factorio_version": "1.1",
+  "dependencies": [
+    "base >= 1.1.0",
+    "(?) space-exploration"
+  ],
+  "description": "Improves fluid handling by scaling and compressing all fluid values by a factor of 10 to solve pipe throughput issues. Does not affect the game balance, just a QoL feature."
+}

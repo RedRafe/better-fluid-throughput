@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-01-09
+  Info:
+    - Initial release
+  Fixes:
+    - Fixed fuel values
+    - Fixed compatibility with Space Exploration
+  Features:
+    - Added settings for compression values
+    - Added settings to opt in/out storage compression
