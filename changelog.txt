@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2024-01-10
+  Changes:
+    - Added migrations for Pressurized Fluid (+ Angel's, Bob's, Krastorio2, Exotic Industries, BZ, Space Exploration)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2024-01-09
   Info:

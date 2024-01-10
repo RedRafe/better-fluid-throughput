@@ -28,7 +28,8 @@ The game balance remain unchanged, while improving fluid throughput and handling
 Should be compatible with every mod, unless strange modifications at the latter stage of prototypes definition.
 
 Ad hoc compatibility with:
-- **Space Exploration**
+- **Space Exploration** --> excluding rocket/spaceship special fuels and tanks to maintain balance
+- **Pressurized Fluids** --> handle migration to replace *Pressurized Fluids* in favor of *Better Fluid Throughput* 
 
 
 ---

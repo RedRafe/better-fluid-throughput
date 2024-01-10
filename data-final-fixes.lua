@@ -27,6 +27,10 @@ end
 
 --=================================================================================================
 
+require 'compatibility.pressurized-fluids'
+
+--=================================================================================================
+
 local function skip(type, name)
 	return BFT_blacklist[type] and BFT_blacklist[type][name]
 end
