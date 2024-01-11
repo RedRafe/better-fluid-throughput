@@ -34,4 +34,4 @@ Ad hoc compatibility with:
 
 ---
 
-Forked and fixed from [Small Fluids](https://mods.factorio.com/mod/SmallFluids/discussion/641143422ed1adc2c75d66e4)
+Forked and fixed from [Small Fluids](https://mods.factorio.com/mod/SmallFluids)

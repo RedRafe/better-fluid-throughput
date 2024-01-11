@@ -97,7 +97,7 @@ for _, source in pairs(prototype_categories) do
 		end
 
 		-- Offshore pump
-		if val.pumping_speed then
+		if val.type == 'offshore-pump' and val.pumping_speed then
 			val.pumping_speed = val.pumping_speed / compression_ratio
 		end
 
