@@ -84,15 +84,15 @@ for _, source in pairs(prototype_categories) do
 		end
 
 		-- Fluid
-		if val.heat_capacity then
+		if val.type == 'fluid' and val.heat_capacity then
 			val.heat_capacity = multiplyStringValue(val.heat_capacity, compression_ratio)
 		end
-		if val.fuel_value then
+		if val.type == 'fluid' and val.fuel_value then
 			val.fuel_value = multiplyStringValue(val.fuel_value, compression_ratio)
 		end
 
 		-- Generator
-		if val.fluid_usage_per_tick then
+		if val.type == 'generator' and val.fluid_usage_per_tick then
 			val.fluid_usage_per_tick = val.fluid_usage_per_tick / compression_ratio
 		end
 
@@ -102,7 +102,7 @@ for _, source in pairs(prototype_categories) do
 		end
 
 		-- Resource
-		if val.minable then
+		if val.type == 'resource' and val.minable then
 			if val.minable.results then
 				for _, item in pairs(val.minable.results) do
 					divideFluid(item)
@@ -124,7 +124,7 @@ for _, source in pairs(prototype_categories) do
 		end
 
 		-- Storage tank
-		if val.fluid_box then
+		if type == 'storage-tank' and val.fluid_box then
 			if not val.fluid_box.base_area then
 				val.fluid_box.base_area = 1.0
 			end
@@ -132,7 +132,7 @@ for _, source in pairs(prototype_categories) do
 		end
 
 		-- Fluid wagon
-		if val.capacity then
+		if val.type == 'fluid-wagon' and val.capacity then
 			val.capacity = val.capacity / compression_ratio
 		end
 
