@@ -124,7 +124,7 @@ for _, source in pairs(prototype_categories) do
 		end
 
 		-- Storage tank
-		if type == 'storage-tank' and val.fluid_box then
+		if val.type == 'storage-tank' and val.fluid_box then
 			if not val.fluid_box.base_area then
 				val.fluid_box.base_area = 1.0
 			end
