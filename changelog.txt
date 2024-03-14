@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2024-03-14
+  Bugfixes:
+    - Fixed incorrect recipe change with Space Exploration
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 2024-02-08
   Bugfixes:
@@ -23,7 +28,7 @@ Version: 0.1.0
 Date: 2024-01-09
   Info:
     - Initial release
-  Fixes:
+  Bugfixes:
     - Fixed fuel values
     - Fixed compatibility with Space Exploration
   Features:

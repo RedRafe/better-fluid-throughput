@@ -35,3 +35,7 @@ Ad hoc compatibility with:
 ---
 
 Forked and fixed from [Small Fluids](https://mods.factorio.com/mod/SmallFluids)
+
+---
+
+*Join my [Discord](https://discord.gg/pq6bWs8KTY)*
